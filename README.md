@@ -1,4 +1,4 @@
-# example-project-scratch
+# project-example-scratch
 
 This example initializes a new, empty Upbound project. This is the default
 used by `up` when creating a scratch project.
