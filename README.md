@@ -5,4 +5,4 @@ used by `up` when creating a scratch project.
 
 ## Use
 
-To use this example, use `up project init <project-name>`.
+To use this example, use `up project init --scratch <project-name>`.
