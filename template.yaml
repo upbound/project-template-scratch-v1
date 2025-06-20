@@ -1,5 +1,5 @@
-name: example-project-template
-description: "A template for creating a new example project"
+name: example-project-scratch
+description: "A example for creating an empty project"
 version: 0.1.0
 
 languages:
@@ -7,29 +7,3 @@ languages:
 - go-templates
 - kcl
 - python
-
-# Directory and file renaming patterns
-rename:
-  directories:
-    # Remove language suffix from directories
-    - pattern: "*-go"
-      replacement: "*"
-      languages: ["go"]
-    - pattern: "*-go-templates"
-      replacement: "*"
-      languages: ["go-templates"]
-    - pattern: "*-python"
-      replacement: "*"
-      languages: ["python"]
-    - pattern: "*-kcl"
-      replacement: "*"
-      languages: ["kcl"]
-
-files:
-  # Template files that need variable substitution
-  "README.md":
-    template: true
-    required: true
-  "upbound.yaml":
-    template: true
-    required: true
