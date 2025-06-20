@@ -7,3 +7,11 @@ languages:
 - go-templates
 - kcl
 - python
+
+files:
+  "README.md":
+    template: true
+    required: true
+  "upbound.yaml":
+    template: true
+    required: true
