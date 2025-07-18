@@ -1,8 +1,8 @@
-# project-example-scratch
+# project-template-scratch
 
-This example initializes a new, empty Upbound project. This is the default
+This template initializes a new, empty Upbound project. This is the default
 used by `up` when creating a scratch project.
 
 ## Use
 
-To use this example, use `up project init --scratch <project-name>`.
+To use this template, use `up project init --scratch <project-name>`.

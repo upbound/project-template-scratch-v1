@@ -1,5 +1,5 @@
-name: project-example-scratch
-description: "A example for creating an empty project"
+name: project-template-scratch
+description: "A template for creating an empty project"
 version: 0.1.0
 
 languages:
