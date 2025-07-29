@@ -1,4 +1,4 @@
-apiVersion: meta.dev.upbound.io/v1alpha1
+apiVersion: meta.dev.upbound.io/v2alpha1
 kind: Project
 metadata:
   name: project-template-scratch
@@ -10,3 +10,5 @@ spec:
     This is where you can add a readme for your project.
   repository: xpkg.upbound.io/upbound/project-template-scratch
   source: github.com/upbound/project-template-scratch
+  crossplane:
+    version: ">=2.0.0-rc.1"
