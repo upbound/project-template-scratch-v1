@@ -10,5 +10,3 @@ spec:
     This is where you can add a readme for your project.
   repository: xpkg.upbound.io/upbound/project-template-scratch
   source: github.com/upbound/project-template-scratch
-  crossplane:
-    version: ">=2.0.0-rc.1"
